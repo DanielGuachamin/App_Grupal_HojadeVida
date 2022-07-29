@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Grupal_HojadeVida.CVDaniel"
              Title="Hoja de Vida de Daniel Guachamín"
-             IconImageSource="cv_icon.png"
+             IconImageSource="cvicon.png"
              >
     <ContentPage.Content>
         <StackLayout>

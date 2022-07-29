@@ -83,15 +83,14 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cvicon.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\App_Grupal_HojadeVida\App_Grupal_HojadeVida.csproj">
       <Project>{C69C506D-FF54-4419-A234-4620C66EC7B6}</Project>
       <Name>App_Grupal_HojadeVida</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cv_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

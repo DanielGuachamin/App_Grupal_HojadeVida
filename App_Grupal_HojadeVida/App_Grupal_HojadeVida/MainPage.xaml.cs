@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace App_Grupal_HojadeVida
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : TabbedPage
     {
         public MainPage()
         {
