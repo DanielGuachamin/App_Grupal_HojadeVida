@@ -2,14 +2,37 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Grupal_HojadeVida.CVJeremy"
-             Title="Hoja de Vida de Jeremy León"
+             Title="CV Jeremy"
              IconImageSource="cvicon.png"
              >
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Bienvenid@ a mi CV"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame Margin="10, 20"
+                   CornerRadius="20">
+                <Image Source="https://cdn.icon-icons.com/icons2/3106/PNG/512/person_avatar_account_user_icon_191606.png"/>
+            </Frame>
+            <Label Text="Bienvenid@ a CV de Jeremy León"
+                   FontSize="Title"
+                   Padding="30,10,30,10"/>
+            <Label Text="Soy un estudiante de la EPN y estudio Desarrollo de Software"
+                   FontSize="16"
+                   Padding="30,24,30,0"/>
+            <Button Text="Ver más..."
+                    TextTransform="None"/>
+            <Label Text="Lista de aptitudes"
+                   FontSize="Subtitle"
+                   Padding="30,10,30,10"
+                   HorizontalOptions="Center"/>
+            <Frame 
+                   VerticalOptions="FillAndExpand">
+                <StackLayout BackgroundColor="#1BA2DA"
+                             Spacing="10">
+                    <ListView x:Name="ListaAptitudes">
+                        
+                    </ListView>
+
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Grupal_HojadeVida.CVDaniel"
-             Title="Hoja de Vida de Daniel Guachamín"
+             Title="CV Daniel"
              IconImageSource="cvicon.png"
              >
     <ContentPage.Content>
