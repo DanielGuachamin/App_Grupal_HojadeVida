@@ -10,16 +10,20 @@ using Xamarin.Forms.Xaml;
 namespace App_Grupal_HojadeVida
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CVDaniel : ContentPage
+    public partial class ModalDaniel : ContentPage
     {
-        public CVDaniel()
+        public ModalDaniel()
         {
             InitializeComponent();
         }
-
         async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new ModalDaniel());
+            await Navigation.PopModalAsync();
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
         }
     }
 }

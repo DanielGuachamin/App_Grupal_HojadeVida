@@ -7,9 +7,53 @@
              >
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Bienvenid@ a mi CV"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame Margin="10, 20"
+                   CornerRadius="20">
+                <Image Source="https://cdn.icon-icons.com/icons2/3106/PNG/512/person_avatar_account_user_icon_191606.png"/>
+            </Frame>
+            <Label Text="Jeremy León"
+                   FontSize="Title"
+                   Padding="30,10,30,10"
+                   HorizontalOptions="Center"/>
+            <Label Text="Soy un estudiante de la EPN y estudio Desarrollo de Software"
+                   FontSize="16"
+                   Padding="30,24,30,0"/>
+
+            <Label Text="Lista de aptitudes"
+                   FontSize="Subtitle"
+                   Padding="30,10,30,10"
+                   HorizontalOptions="Center"/>
+            <Frame 
+                   VerticalOptions="FillAndExpand">
+                <StackLayout BackgroundColor="#009387"
+                             Spacing="1">
+                    <Label Text="* Trabajador"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="10, 5"/>
+                    <Label Text="* Trabajador"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="10, 5"/>
+                    <Label Text="* Trabajador"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="10, 5"/>
+                    <Label Text="* Trabajador"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="10, 5"/>
+                    <Label Text="* Trabajador"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="10, 5"/>
+                    <Label Text="* Trabajador"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="10, 5"/>
+
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

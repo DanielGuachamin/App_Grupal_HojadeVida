@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Grupal_HojadeVida.ModalDaniel">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Experiencia Laboral"
+                   FontSize="Title"
+                   Padding="30,10,30,10"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
+            <Label Text="- Administrador de página web oficial de la Escuela de Formación de Tecnólogos"
+                   FontSize="16"
+                   Padding="30,24,30,0"/>
+            <Label Text="- Gestor de convenios interinstitucionales de la Dirección de Relaciones Interinstitucionales"
+                   FontSize="16"
+                   Padding="30,24,30,0"/>
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="#1690F4"/>
+            
+            <Label Text="Educación"
+                   FontSize="Title"
+                   Padding="30,10,30,10"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
+            <Label Text="* Bachillerato Técnico Industrial en Electrónica de Consumo y Bachillerato Internacional: 2013/09 - 2019/07"
+                   FontSize="16"
+                   Padding="30,24,30,0"/>
+            <Label Text="* Tecnólogo Superior en Desarrollo de Software: 2019/09 - actualmente"
+                   FontSize="16"
+                   Padding="30,24,30,0"/>
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="#1690F4"/>
+
+            <Label Text="Certificados"
+                   FontSize="Title"
+                   Padding="30,10,30,10"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
+            <StackLayout BackgroundColor="#B4D645"
+                             Spacing="1">
+                <Label Text="* Desarrollo de la página web de la ESFOT"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="30,10,30,10"/>
+                <Label Text="* Scrum Foundation Professional Certificate SFPC"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="30,10,30,10"/>
+                <Label Text="* Introducción al Desarrollo Web I y II"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="30,10,30,10"/>
+                <Label Text="* English Course Advanced Two"
+                           FontSize="16"
+                           TextColor="Black"
+                   Padding="30,10,30,10"/>
+                </StackLayout>
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="Red"/>
+            <Button Text="Regresar"
+                    TextTransform="None"
+                    Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
