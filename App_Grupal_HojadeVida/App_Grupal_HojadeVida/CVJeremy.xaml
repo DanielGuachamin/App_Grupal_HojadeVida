@@ -18,7 +18,7 @@
                    HorizontalOptions="Center"
                    FontAttributes="Bold"/>
             <Label Text="Soy estudiante universitario honesto, proactivo y de aprendizaje rápido. Tengo experiencia 
-en el mantenimiento de computadores, con el uso de frameworks de desarrollo web y móbil."
+en el mantenimiento de computadores, con el uso de frameworks de desarrollo web y móvil."
                    FontSize="16"
                    Padding="30,24,30,0"/>
 
