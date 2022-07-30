@@ -6,17 +6,20 @@
         <StackLayout>
             <Label Text="Experiencia Laboral"
                    FontSize="Title"
-                   Padding="30,10,30,10"
+                   Padding="30,10,30,0"
                    HorizontalOptions="Center"
                    FontAttributes="Bold"/>
-            <Label Text="- Gestor de convenios interinstitucionales de la Dirección de Relaciones Interinstitucionales"
+            <Label Text="- Ayudante en Protección Animal Ecuador (PAE)"
+                   FontSize="16"
+                   Padding="30,24,30,0"/>
+            <Label Text="- Miembro de la junta receptora del voto en el Consejo Nacional Electoral (CNE)"
                    FontSize="16"
                    Padding="30,24,30,0"/>
             <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="#1690F4"/>
 
             <Label Text="Educación"
                    FontSize="Title"
-                   Padding="30,10,30,10"
+                   Padding="30,10,30,0"
                    HorizontalOptions="Center"
                    FontAttributes="Bold"/>
             <Label Text="* Unidad Educativa María Angélica Idrobo - Bachiller en Ciencias: 2011 - 2017"

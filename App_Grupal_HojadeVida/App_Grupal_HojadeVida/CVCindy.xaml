@@ -17,10 +17,7 @@
                    Padding="30,10,30,10"
                    HorizontalOptions="Center"
                    FontAttributes="Bold"/>
-            <Label Text="Excelentes relaciones interpersonales, adaptable al cambio y al aprendizaje 
-                   continuo, capaz de trabajar en equipo, proactiva. Capacidad de liderazgo, 
-                   orientación a los resultados, destreza como el pensamiento estratégico y 
-                   habilidades de negociación."
+            <Label Text="Excelentes relaciones interpersonales, adaptable al cambio y al aprendizaje continuo, capaz de trabajar en equipo, proactiva. Capacidad de liderazgo, orientación a los resultados, destreza como el pensamiento estratégico y habilidades de negociación."
                    FontSize="16"
                    Padding="30,24,30,0"/>
 
