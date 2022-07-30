@@ -16,5 +16,10 @@ namespace App_Grupal_HojadeVida
         {
             InitializeComponent();
         }
+
+        async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ModalCindy());
+        }
     }
 }

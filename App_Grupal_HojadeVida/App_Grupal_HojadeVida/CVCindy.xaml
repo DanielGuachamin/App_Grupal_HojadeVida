@@ -8,52 +8,54 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame Margin="10, 20"
-                   CornerRadius="20">
-                <Image Source="https://cdn.icon-icons.com/icons2/3106/PNG/512/person_avatar_account_user_icon_191606.png"/>
+                   CornerRadius="20"
+                   HeightRequest="150">
+                <Image Source="DanielG.jpeg"/>
             </Frame>
-            <Label Text="Jeremy León"
+            <Label Text="Cindy Yazán"
                    FontSize="Title"
                    Padding="30,10,30,10"
-                   HorizontalOptions="Center"/>
-            <Label Text="Soy un estudiante de la EPN y estudio Desarrollo de Software"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
+            <Label Text="Soy estudiante universitario honesto, proactivo y de aprendizaje rápido. Tengo experiencia 
+en el mantenimiento de computadores, con el uso de frameworks de desarrollo web y móbil."
                    FontSize="16"
                    Padding="30,24,30,0"/>
 
-            <Label Text="Lista de aptitudes"
+            <Label Text="Lista de fortalezas"
                    FontSize="Subtitle"
                    Padding="30,10,30,10"
-                   HorizontalOptions="Center"/>
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"/>
             <Frame 
                    VerticalOptions="FillAndExpand">
                 <StackLayout BackgroundColor="#009387"
                              Spacing="1">
-                    <Label Text="* Trabajador"
+                    <Label Text="* Respetuoso"
                            FontSize="16"
                            TextColor="Black"
                    Padding="10, 5"/>
-                    <Label Text="* Trabajador"
+                    <Label Text="* Honesto"
                            FontSize="16"
                            TextColor="Black"
                    Padding="10, 5"/>
-                    <Label Text="* Trabajador"
+                    <Label Text="* Versátil"
                            FontSize="16"
                            TextColor="Black"
                    Padding="10, 5"/>
-                    <Label Text="* Trabajador"
+                    <Label Text="* Puntual"
                            FontSize="16"
                            TextColor="Black"
                    Padding="10, 5"/>
-                    <Label Text="* Trabajador"
+                    <Label Text="* Responsable"
                            FontSize="16"
                            TextColor="Black"
                    Padding="10, 5"/>
-                    <Label Text="* Trabajador"
-                           FontSize="16"
-                           TextColor="Black"
-                   Padding="10, 5"/>
-
                 </StackLayout>
             </Frame>
+            <Button Text="Ver más..."
+                    TextTransform="None"
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
